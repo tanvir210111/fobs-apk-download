@@ -4,25 +4,26 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnSpinner = document.getElementById('btnSpinner');
   const toast = document.getElementById('toast');
   const toastClose = document.getElementById('toastClose');
+  const toastFileName = document.getElementById('toastFileName');
   const currentYearSpan = document.getElementById('currentYear');
-  const apkFileName = 'FOBS Tv.apk';
+  const defaultApkFileName = 'FOBS TV v2.0.0.apk';
 
   // Set current year in footer
   if (currentYearSpan) {
     currentYearSpan.textContent = new Date().getFullYear();
   }
 
-  // Handle Download Click
+  // Handle Main Hero Download Click
   if (downloadBtn) {
-    downloadBtn.addEventListener('click', (e) => {
+    downloadBtn.addEventListener('click', () => {
       // Show loading feedback on button
       if (btnSpinner) btnSpinner.style.display = 'inline-block';
       if (btnText) btnText.textContent = 'Starting Download...';
 
       // Show toast notification
-      showToast();
+      showToast(defaultApkFileName);
 
-      // Reset button text after 2.5 seconds
+      // Reset button text after timeout
       setTimeout(() => {
         if (btnSpinner) btnSpinner.style.display = 'none';
         if (btnText) btnText.textContent = 'Downloading Started! ✓';
@@ -34,10 +35,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Handle Version Archive Download Clicks
+  const versionBtns = document.querySelectorAll('.version-dl-btn');
+  versionBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const fileName = btn.getAttribute('data-apk') || defaultApkFileName;
+      showToast(fileName);
+    });
+  });
+
   // Toast controls
   let toastTimer = null;
-  function showToast() {
+  function showToast(fileName = defaultApkFileName) {
     if (!toast) return;
+    if (toastFileName) {
+      toastFileName.textContent = fileName;
+    }
     toast.classList.add('show');
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => {
