@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const toastClose = document.getElementById('toastClose');
   const toastFileName = document.getElementById('toastFileName');
   const currentYearSpan = document.getElementById('currentYear');
-  const defaultApkFileName = 'FOBS TV v3.1.1.apk';
+  const defaultApkFileName = 'FOBS-TV v3.1.1.apk';
 
   // Set current year in footer
   if (currentYearSpan) {
