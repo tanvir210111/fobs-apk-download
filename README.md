@@ -14,7 +14,7 @@ You can host this directly on [GitHub Pages](https://pages.github.com/) or any s
 - `index.html` - Main landing page with responsive layout, latest release hero, and older versions archive table.
 - `style.css` - Dark mode styling with glowing gradients and glassmorphism.
 - `script.js` - Instant auto-download trigger, download feedback animations, and FAQ accordion.
-- `FOBS-TV v3.1.1.apk` - Official FOBS TV latest Android release package (~6.38 MB, v3.1.1).
+- `FOBS TV v3.1.1.apk` - Official FOBS TV latest Android release package (~17.0 MB, v3.1.1).
 - `FOBS TV v3.0.0.apk` - Official FOBS TV previous release package (~6.05 MB, v3.0.0).
 - `FOBS TV v2.0.0.apk` - Official FOBS TV previous release package (~5.84 MB, v2.0.0).
 - `FOBS Tv.apk` - Official FOBS TV archive release package (~5.44 MB, v1.0.0).
