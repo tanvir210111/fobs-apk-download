@@ -1,6 +1,6 @@
 # FOBS TV APK Download Landing Page
 
-Official download landing page for **FOBS TV APK** (v3.1.3 Latest, v3.1.1, v3.0.0, v2.0.0 & v1.0.0 Archive) with direct download, modern glassmorphism UI, version archive, installation guide, and FAQ.
+Official download landing page for **FOBS TV APK** (v3.1.3 Official Latest Release) with direct download, modern glassmorphism UI, installation guide, and FAQ.
 
 ## 🚀 Live Demo & Hosting
 You can host this directly on [GitHub Pages](https://pages.github.com/) or any static hosting (Vercel, Netlify, Cloudflare Pages).
@@ -11,12 +11,8 @@ You can host this directly on [GitHub Pages](https://pages.github.com/) or any s
 3. Click **Save**. Your site will be live at `https://tanvir210111.github.io/fobs-apk-download/`.
 
 ## 📦 Releases & Files
-- `index.html` - Main landing page with responsive layout, latest release hero, and older versions archive table.
+- `index.html` - Main landing page with responsive layout, official latest release hero, and installation guide.
 - `style.css` - Dark mode styling with glowing gradients and glassmorphism.
 - `script.js` - Instant auto-download trigger, download feedback animations, and FAQ accordion.
-- `FOBS TV v3.1.3.apk` - Official FOBS TV latest Android release package (~8.37 MB, v3.1.3).
-- `FOBS TV v3.1.1.apk` - Official FOBS TV previous release package (~17.0 MB, v3.1.1).
-- `FOBS TV v3.0.0.apk` - Official FOBS TV previous release package (~6.05 MB, v3.0.0).
-- `FOBS TV v2.0.0.apk` - Official FOBS TV previous release package (~5.84 MB, v2.0.0).
-- `FOBS Tv.apk` - Official FOBS TV archive release package (~5.44 MB, v1.0.0).
+- `FOBS TV v3.1.3.apk` - Official FOBS TV latest Android release package (~8.41 MB, v3.1.3).
 
